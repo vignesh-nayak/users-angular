@@ -22,7 +22,6 @@ export class ToppersComponent {
     const toppersRef = ref(this.database, 'users');
     onValue(toppersRef, (snapshot) => {
       const data = snapshot.val();
-      console.log(data);
       if (data === null) this.users = [];
       else
         this.users = data.filter(
