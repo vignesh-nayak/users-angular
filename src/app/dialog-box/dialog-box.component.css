@@ -1,0 +1,15 @@
+.mat-dialog-content {
+  color: #666;
+  font-size: 2vh;
+}
+
+.mat-dialog-actions {
+  justify-content: flex-end;
+}
+
+.dailgoBoxButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2vw;
+}

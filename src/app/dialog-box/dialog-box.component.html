@@ -1,0 +1,6 @@
+<h1 mat-dialog-title>{{ data.title }}</h1>
+<div mat-dialog-content>{{ data.message }}</div>
+<div mat-dialog-actions class="dailgoBoxButton">
+    <button mat-flat-button color="warn" (click)="onYesClicked()">Yes</button>
+    <button mat-flat-button color="primary" (click)="onNoClicked()">No</button>
+</div>
